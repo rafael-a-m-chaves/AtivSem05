@@ -10,3 +10,12 @@ O intuito de replicar este site foi para a entraga da atividade final do  Progra
 
 
 O site esta disponivel no AZURE e encontra-se no seguinte link https://lanchesmac20220319141234.azurewebsites.net
+
+___
+O site foi feito usando o padrao MVC(Model view Controller)
+usando entity framework 5.0 e Banco de dados sqlServer 2019
+
+___
+O Curso usa o .net6 mas é possivel facilmente usar .net5 fazendo pequenas mudanças nos pacotes nuget para as versões compativeis. o codigo em si nao tem mudanças
+___
+
