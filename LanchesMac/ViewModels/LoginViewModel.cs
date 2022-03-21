@@ -8,7 +8,7 @@ namespace LanchesMac.ViewModels
         [Display(Name = "Usuário")]
         public string UserName { get; set; }
         [Required(ErrorMessage = "Informe a senha")]
-        [DataType(DataType.Password)]
+        [DataType(DataType.Password, ErrorMessage ="A senha deve conter caracteres minusculos e maiusculos, um caractere especial e numeros.")]
         [Display(Name = "Senha")]
         public string Password { get; set; }
         public string ReturnUrl { get; set; }
