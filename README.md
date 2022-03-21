@@ -9,3 +9,4 @@ Ele foi criado baseado no curso presente na Udemy do professor José Macoratti !
 O intuito de replicar este site foi para a entraga da atividade final do  Programa de Capacitação 2.0 by  [Montreal](https://www.montreal.com.br/)
 
 
+O site esta disponivel no AZURE e encontra-se no seguinte link https://lanchesmac20220319141234.azurewebsites.net
