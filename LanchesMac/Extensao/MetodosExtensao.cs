@@ -19,6 +19,7 @@ namespace LanchesMac.Extensao
                 {
                     var serviceProvider = services.GetRequiredService<IServiceProvider>();
                     var configuration = services.GetRequiredService<IConfiguration>();
+                    
                     SeedData.CreateRoles(serviceProvider, configuration).Wait();
                 }
                 catch (Exception exception)
@@ -28,8 +29,6 @@ namespace LanchesMac.Extensao
                 }
             }
             return host;
-
-
         }
     }
 }
